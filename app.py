@@ -583,7 +583,7 @@ if st.session_state.analysis_done and st.session_state.analysis_results:
                 {"role": "assistant", "content": answer}
             )
 
-        st.rerun()
+            st.rerun()
 
         if st.session_state.chat_history:
             if st.button("🗑  Clear Chat", key="clear_chat"):
