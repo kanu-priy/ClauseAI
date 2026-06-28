@@ -1,0 +1,6 @@
+streamlit
+openai
+python-dotenv
+langgraph
+PyPDF2
+python-docx
